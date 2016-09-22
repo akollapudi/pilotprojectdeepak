@@ -5,7 +5,7 @@
  
 <struts>
 
-	<package name="user" namespace="*/*" extends="struts-default">
+	<package name="user" namespace="/Sample" extends="struts-default">
 		<action name="Login">
 			<result>pages/login.jsp</result>
 		</action>
